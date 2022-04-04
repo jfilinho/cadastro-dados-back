@@ -1,59 +1,25 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+## Sisteme de cadastros banco de dados
 
-# IronREST Boilerplate
+Este site foi desenvolvido com o React que é biblioteca de JavaScript,para construção de interfaces de usuários. O armazenamento dos dados está sendo feito com o mongoDB, um banco de dados não relacional, uso do Node.js para criação de rotas no back-end, e para a estilização foi usado o styled-component e react-bootstrap.
 
-Esse boilerplate para API RESTful já inclui:
+### Link Repositório do Backend
 
-- Autenticação por tokens JWT usando o Passport
-- Conexão com banco de dados MongoDB usando Mongoose
-- Servidor Web usando Express pré-configurado com CORS e aceitando requisições JSON e Multipart Form
-- Upload de arquivos usando Cloudinary e Multer
+[Repositório Backend](https://github.com/jfilinho/sistem-book-back)
 
-## Para Começar
+### Link do site
 
-- Faça o fork e clone deste repositório
+[Sitem Books](https://cadastro-livro.netlify.app)
 
-## Instalação
+![React](https://camo.githubusercontent.com/4e4a3b5c3e9c00501ec866e2f2466c5a6032f838aca5f2cf3b14450e39e8a2f0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656163742532302d2532333230323332612e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d253233363144414642)
 
-```shell
-$ npm install
-```
+![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![CSS Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-> :warning: **IMPORTANTE**: O arquivo `.env` está comentado no `.gitignore` por motivos didáticos. Antes de fazer seu primeiro commit, retire o comentário (`#`) do `.gitignore` na linha onde está escrito `.env` e execute o seguinte comando (esse comando deleta o arquivo do histórico de commits do Git):
+![Html Badge](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
-```shell
-$ git rm -r --cached .env
-```
+![Html Badge](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
-## Desenvolvimento
+![Html Badge](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 
-Para iniciar o servidor web localmente execute no seu terminal:
+## Redes Sociais
 
-```shell
-$ npm run dev
-```
-
-## Deploy do MongoDB
-
-1. Faça login no https://account.mongodb.com/account/login?nds=true
-2. Crie um cluster gratuito
-3. Siga as instruções e obtenha a string de conexão com o banco
-4. Crie uma variável de ambiente MONGODB_URI no Heroku com a string de conexão copiada do Atlas
-
-## Deploy no Heroku
-
-1. Faça login no Heroku e selecione seu repositório
-2. Habilite 'automatic deploys'
-3. No seu terminal, execute os seguintes comandos:
-
-```shell
-$ git add .
-$ git commit -m 'deploying'
-$ heroku git:remote -a nome-do-repo-no-heroku
-$ git push heroku master
-```
-
-4. Adicione uma variável de ambiente no Heroku para cada variável de ambiente presente no arquivo .env (não precisa criar a PORT no Heroku)
-5. Adicione a URL da sua API hospedada no Heroku nas variáveis de ambiente do app React no Netlify
-
-Happy coding! 💙
+[![Github Badge](<https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/jfilinho(https://github.com/jfilinho)>)](https://github.com/jfilinho) [![Linkedin Badge](<https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=[https://www.linkedin.com/in/jo%C3%A3o-filho-souza-silva-734773165/](https://www.linkedin.com/in/jo%C3%A3o-filho-souza-silva-734773165/)>)](https://www.linkedin.com/in/jo%C3%A3o-filho-souza-silva-734773165/)

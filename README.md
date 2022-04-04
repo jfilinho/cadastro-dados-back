@@ -2,13 +2,9 @@
 
 Este site foi desenvolvido com o React que é biblioteca de JavaScript,para construção de interfaces de usuários. O armazenamento dos dados está sendo feito com o mongoDB, um banco de dados não relacional, uso do Node.js para criação de rotas no back-end, e para a estilização foi usado o styled-component e react-bootstrap.
 
-### Link Repositório do Backend
+### Link Repositório do Front-end
 
-[Repositório Backend](https://github.com/jfilinho/sistem-book-back)
-
-### Link do site
-
-[Sitem Books](https://cadastro-livro.netlify.app)
+[Repositório Backend](https://github.com/jfilinho/cadastro-dados-front)
 
 ![React](https://camo.githubusercontent.com/4e4a3b5c3e9c00501ec866e2f2466c5a6032f838aca5f2cf3b14450e39e8a2f0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656163742532302d2532333230323332612e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d253233363144414642)
 

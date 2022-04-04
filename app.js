@@ -11,8 +11,8 @@ app.use(morgan("dev"));
 // Não esquecer de criar variável de ambiente com o endereço do seu app React (local ou deployado no Netlify)
 app.use(cors({ origin: process.env.REACT_APP_URL }));
 
-const userRouter = require("./routes/user.routes");
-app.use("/api", userRouter);
+const usuarioRouter = require("./routes/user.routes");
+app.use("/api", usuarioRouter);
 
 app.listen(Number(process.env.PORT), () =>
   console.log(`Server up and running at port ${process.env.PORT}`)

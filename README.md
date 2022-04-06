@@ -1,6 +1,8 @@
 ## Sisteme de cadastros banco de dados
 
-Este site foi desenvolvido com o React que é biblioteca de JavaScript,para construção de interfaces de usuários. O armazenamento dos dados está sendo feito com o mongoDB, um banco de dados não relacional, uso do Node.js para criação de rotas no back-end, e para a estilização foi usado o styled-component e react-bootstrap.
+Desenvolvimento de um sistema de cadastro de dados, com hospedagem em um banco.
+
+Foi desenvolvido com o React que é uma biblioteca de JavaScript, para construção de interfaces de usuários. O armazenamento dos dados está sendo feito com o mongoDB, um banco de dados não relacional, uso do Node.js para criação de rotas no back-end, e no front-end a estilização foi com o styled-component e react-bootstrap.
 
 ### Link Repositório do Front-end
 
